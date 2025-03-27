@@ -1,0 +1,3 @@
+[submodule "NLayer.Template.Packages"]
+	path = NLayer.Template.Packages
+	url = https://github.com/bekirhankurt/NLayer.Template.Packages
