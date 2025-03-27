@@ -7,8 +7,21 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Core.Localization\Core.Localization.csproj" />
       <ProjectReference Include="..\Domain\Domain.csproj" />
       <ProjectReference Include="..\NLayer.Template.Packages\Core.Application\Core.Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Features\RentalBranches\" />
+      <Folder Include="Features\RentalsAdditionalServices\" />
+      <Folder Include="Features\Rentals\" />
+      <Folder Include="Services\" />
+      <Folder Include="TranslateService\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="14.0.0" />
     </ItemGroup>
 
 </Project>
